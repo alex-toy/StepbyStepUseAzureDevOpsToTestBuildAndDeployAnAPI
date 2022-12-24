@@ -15,7 +15,7 @@ namespace SimpleAPI.Test
             WeatherForecast value = weather.GetOne(1);
 
             Assert.NotNull(value);
-            Assert.Equal(value.Summary, "Bracing");
+            Assert.Equal(value.Summary, "BracingWrong");
         }
     }
 }
