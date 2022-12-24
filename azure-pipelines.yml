@@ -29,13 +29,12 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: VSTest@2
-  inputs:
-    testSelector: 'testAssemblies'
-    testAssemblyVer2: |
-      $(System.DefaultWorkingDirectory)\Tests\**\bin\**\*.Test.dll
-      **\*test*.dll
-      !**\*TestAdapter.dll
-      !**\obj\**
-    searchFolder: './SimpleAPI.Test'
+  inputs: 
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+    
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: '**/*.csproj'
+    testRunTitle: 'AlexTests'
