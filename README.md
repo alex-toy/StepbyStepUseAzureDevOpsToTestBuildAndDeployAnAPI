@@ -16,3 +16,9 @@ Azure DevOps Pipelines to Continuously Integrate & Deploy a .Net Core Rest API t
 
 <img src="/pictures/pipeline_fail_test.png" title="pipeline fail test on purpose"  width="500">
 <img src="/pictures/pipeline_test_failed.png" title="pipeline failed test"  width="500">
+
+
+### API App
+
+<img src="/pictures/api_app.png" title="api app"  width="500">
+<img src="/pictures/release_pipeline.png" title="release pipeline"  width="500">
