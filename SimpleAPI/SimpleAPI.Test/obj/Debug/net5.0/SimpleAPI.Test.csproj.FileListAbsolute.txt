@@ -98,3 +98,16 @@ C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAP
 C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\obj\Debug\net5.0\SimpleAPI.Test.pdb
 C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\obj\Debug\net5.0\SimpleAPI.Test.genruntimeconfig.cache
 C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\obj\Debug\net5.0\ref\SimpleAPI.Test.dll
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\SimpleAPI.deps.json
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\SimpleAPI.runtimeconfig.json
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\SimpleAPI.runtimeconfig.dev.json
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\appsettings.Development.json
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\appsettings.json
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\SimpleAPI.exe
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\SimpleAPI.dll
+C:\source\AzureDevops\StepbyStepUseAzureDevOpsToTestBuildAndDeployAnAPI\SimpleAPI\SimpleAPI.Test\bin\Debug\net5.0\SimpleAPI.pdb

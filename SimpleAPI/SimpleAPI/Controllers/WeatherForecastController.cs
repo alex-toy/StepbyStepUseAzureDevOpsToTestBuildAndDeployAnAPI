@@ -16,11 +16,11 @@ namespace SimpleAPI.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        //private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger = null)
         {
-            _logger = logger;
+            //_logger = logger;
         }
 
         [HttpGet]
@@ -34,6 +34,18 @@ namespace SimpleAPI.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpGet("index")]
+        public WeatherForecast GetOne(int index)
+        {
+            var rng = new Random();
+            return  new WeatherForecast
+            {
+                Date = DateTime.Now.AddDays(index),
+                TemperatureC = rng.Next(-20, 55),
+                Summary = Summaries[index]
+            };
         }
     }
 }
